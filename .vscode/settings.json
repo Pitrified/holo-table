@@ -1,0 +1,25 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "cSpell.words": [
+        "astype",
+        "dtype",
+        "FLANN",
+        "homographies",
+        "homography",
+        "imread",
+        "imshow",
+        "KDTREE",
+        "keypoints",
+        "landlist",
+        "landmarker",
+        "LSTM",
+        "matplotlib",
+        "mediapipe",
+        "ndarray",
+        "opencv",
+        "polylines",
+        "pyplot",
+        "RANSAC",
+        "wireframe"
+    ]
+}
