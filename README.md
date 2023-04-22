@@ -2,6 +2,27 @@
 
 Ok just a pinch to zoom in the air for now.
 
+## Setup and deploy
+
+On both the server and the client:
+
+```bash
+git clone https://github.com/Pitrified/holo-table.git
+poetry install
+```
+
+On the server:
+
+```bash
+poetry run receiver --ip <server_ip> --port <server_port>
+```
+
+On the client:
+
+```bash
+poetry run sender --ip <server_ip> --port <server_port>
+```
+
 ## Ideas
 
 Video capture to generate a training dataset,
@@ -26,3 +47,5 @@ I think timestamp + distance is ok,
 then the client can parse the zooming from that.
 
 Or send the whole wireframe of the hand.
+
+We could apply the smoothing on the landmarks directly.
