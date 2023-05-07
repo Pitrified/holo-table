@@ -1,4 +1,7 @@
-"""Compute the landmarks and send the distance into the ether."""
+"""Compute the landmarks and send the distance into the ether.
+
+GUI frontend.
+"""
 
 import json
 from typing import Self
