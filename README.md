@@ -25,6 +25,8 @@ poetry run sender --ip <server_ip> --port <server_port>
 
 ## Ideas
 
+In the demo show a fractal, and zoom it.
+
 Video capture to generate a training dataset,
 we want to be able to detect the pinch gesture.
 We can identify the control position,
