@@ -12,6 +12,7 @@ def get_resource(
         "root_fol",
         "sample_fol",
         "hand_fol",
+        "box_fractal",
     ]
 ) -> Path:
     """Get the path of the requested resource."""
@@ -30,3 +31,5 @@ def get_resource(
         return Path(__file__).absolute().parents[3]
     elif which_res == "sample_fol":
         return get_resource("root_fol") / "data" / "sample"
+    elif which_res == "box_fractal":
+        return get_resource("root_fol") / "data" / "box_fractal.png"
